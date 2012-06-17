@@ -1,3 +1,5 @@
 Program is in reponse to CallCopy's code challenge for CodeMash 2012.
 
-Built using maven and coded in Groovy.
+Built using maven and coded in Groovy version 1.8.
+
+Answers to the code challenge are: 4 tellers for 10 minutes and 4 tellers for 5 minutes.
