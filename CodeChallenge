@@ -1,0 +1,35 @@
+You are working for the staffing manager for a bank. You have decided that in order to keep your customers happy, you must ensure that no customer needs to wait more than 10 minutes before being assisted by a teller.
+
+Given the following list of arrival patterns of customers and the amount of time each customer will take talking to a teller, write an application that would determine how many tellers you would need in order to make sure no customer waits longer than the 10 minute limit for service.
+
+Assume that the next person in line will be assisted by the next available teller.
+Once you show the Staffing Manager how many tellers are needed to stay within the 10 minute timeframe, the staffing manager will want to know how many tellers would be needed to ensure a maximum 5 minute wait time. 
+
+Give the solution for a 10 and 5 minute wait time, but write your application to allow for a variable wait time and still be able to compute the correct peak number of tellers needed. 
+
+Customer number, time of arrival, how long they are taking with the teller:
+
+Customer Number 	Arrival Time (hh:mm)	 	Length at teller (minutes)
+1				10:00				5
+2				10:02				5
+3				10:02				4
+4				10:05				6
+5				10:06				5
+6				10:08				5
+7				10:08				7
+8				10:08				3
+9				10:11				4
+10				10:12				9
+11				10:13				6
+12				10:13				7
+13				10:16				5
+14				10:17				4
+15				10:19				5
+16				10:19				5
+17				10:19				3
+18				10:19				7
+19				10:23				3
+20				10:25				8
+21				10:28				9
+22				10:28				3
+23				10:30				6
